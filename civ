@@ -1,0 +1,10 @@
+OAuth - the API supports OAuth
+apiKey - the API uses a private key string/token for authentication - try and use the correct parameter
+X-Mashape-Key - the name of the header which may need to be sent
+No - the API requires no authentication to run
+User-Agent - the name of the header to be sent with requests to the API
+* Currently, the only accepted inputs for the CORS field are as follows:
+
+Yes - the API supports CORS
+No - the API does not support CORS
+Unknown - it is unknown if the API supports CORS
