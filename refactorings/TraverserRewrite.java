@@ -101,3 +101,13 @@ public class TraverserRewrite {
     }
   }
 }
+namespace hwy {
+HWY_BEFORE_TEST(TransformTest);
+HWY_EXPORT_AND_TEST_P(TransformTest, TestAllGenerate);
+HWY_EXPORT_AND_TEST_P(TransformTest, TestAllTransform);
+HWY_EXPORT_AND_TEST_P(TransformTest, TestAllTransform1);
+HWY_EXPORT_AND_TEST_P(TransformTest, TestAllTransform2);
+HWY_EXPORT_AND_TEST_P(TransformTest, TestAllReplace);
+}  // namespace hwy
+
+#endif
